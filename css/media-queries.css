@@ -1,10 +1,8 @@
 
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
+/* screenwidth less than 1024px */
 @media only screen and (max-width: 1024px) {
 
-    /* header styles
-   ------------------------------------------------------------------ */
+    /* header styles */
    header .banner-text h1 {
       font: 80px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
@@ -13,12 +11,10 @@
 
 }
 
-/* screenwidth less than 900px
---------------------------------------------------------------------- */
+/* screenwidth less than 900px */
 @media only screen and (max-width: 900px) {
 
-    /* header styles
-   ------------------------------------------------------------------ */
+    /* header styles */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
@@ -39,8 +35,7 @@
    }
 
 
-   /* About Section
-   ------------------------------------------------------------------- */
+   /* About Section */
    #about .profile-pic {
       width: 114px;
       height: 114px;
@@ -49,24 +44,21 @@
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
-   /* Resume Section
-   ------------------------------------------------------------------- */
+   /* Resume Section */
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }
 
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
+   /* Quotes Section */
+   #quotes .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
-   #testimonials blockquote p {
+   #quotes blockquote p {
       font-size: 22px;
       line-height: 46px;
    }
 
-   /* Contact Section
-   ------------------------------------------------------------------- */
+   /* Contact Section */
    #contact .section-head { margin-bottom: 30px; }
    #contact .header-col h1:before {
       font-size: 66px;
@@ -77,13 +69,11 @@
 
 }
 
-/* mobile wide/smaller tablets
----------------------------------------------------------------------- */
+/* mobile wide/smaller tablets */
 
 @media only screen and (max-width: 767px) {
 
-   /* mobile navigation
-   -------------------------------------------------------------------- */
+   /* mobile navigation */
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -170,8 +160,7 @@
    }
 
 
-   /* Header Styles
-   -------------------------------------------------------------------- */
+   /* Header Styles */
    header .banner {
       padding-bottom: 12px;
       padding-top: 6px;
@@ -198,8 +187,7 @@
    header .scrolldown { display: none; }
 
 
-   /* About Section
-   -------------------------------------------------------------------- */
+   /* About Section */
    #about .profile-pic { display: none; }
    #about .download .button {
       width: 100%;
@@ -209,8 +197,7 @@
    #about .main-col { padding-right: 30px; }
 
 
-   /* Resume Section
-   --------------------------------------------------------------------- */
+   /* Resume Section */
    #resume .header-col {
       padding-top: 0;
       margin-bottom: 48px;
@@ -222,25 +209,23 @@
 
    .bars { width: 100%; }
 
-   /* Portfolio Section
-   /* ----------------------------------------------------------------- */
+   /* Portfolio Section */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
 
-   /* Testimonials Section
-   ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
-   #testimonials h1 {
+   /* Quotes Section */
+   #quotes .text-container { text-align: center; }
+   #quotes h1 {
       font: 16px/24px 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }
-   #testimonials h1 span { display: block; }
-   #testimonials .header-col h1:before { content: none; }
-   #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
+   #quotes h1 span { display: block; }
+   #quotes .header-col h1:before { content: none; }
+   #quotes blockquote { padding-bottom: 24px; }
+   #quotes blockquote p {
       font-size: 20px;
       line-height: 42px;
    }
@@ -252,8 +237,7 @@
    }
 
 
-   /* contact Section
-   ----------------------------------------------------------------------- */
+   /* contact Section */
    #contact { padding-bottom: 66px; }
    #contact .section-head { margin-bottom: 12px; }
    #contact .section-head h1 {
@@ -285,8 +269,7 @@
    }
 
 
-   /* footer
-   ------------------------------------------------------------------------ */
+   /* footer */
 
    /* copyright */
    footer .copyright li:before { content: none; }
@@ -308,17 +291,14 @@
 
 }
 
-/* mobile narrow
-  -------------------------------------------------------------------------- */
+/* mobile narrow */
 
 @media only screen and (max-width: 480px) {
 
-   /* mobile navigation
-   -------------------------------------------------------------------- */
+   /* mobile navigation */
    #nav-wrap ul#nav { width: auto; float: none; }
 
-   /* header styles
-   -------------------------------------------------------------------- */
+   /* header styles */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;
@@ -333,8 +313,7 @@
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
 
-   /* footer
-   ------------------------------------------------------------------------ */
+   /* footer */
 
    /* social links */
    footer .social-links { font-size: 20px; }

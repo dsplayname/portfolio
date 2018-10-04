@@ -296,9 +296,9 @@ img.mfp-img {
   cursor: pointer; }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-  /**
-       * Remove all paddings around the image on small screen
-       */
+  
+  /* remove paddings on small screens */
+
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }
