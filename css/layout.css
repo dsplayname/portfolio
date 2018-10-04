@@ -1,14 +1,9 @@
 
-
-/* ------------------------------------------------------------------ */
-/*  General Styles
-/* ------------------------------------------------------------------ */
+/*  General Styles */
 
 body { background: #0f0f0f; }
 
-/* ------------------------------------------------------------------ */
-/*  Header Styles
-/* ------------------------------------------------------------------ */
+/*  Header Styles */
 
 header {
    position: relative;
@@ -101,8 +96,7 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
-/* primary navigation
---------------------------------------------------------------------- */
+/* primary navigation */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
@@ -163,10 +157,7 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
-
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
+/* About Section */
 
 #about {
    background: #2B2B2B;
@@ -212,10 +203,7 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
-
-/* ------------------------------------------------------------------ */
-/* d. Resume Section
-/* ------------------------------------------------------------------ */
+/*  Resume Section */
 
 #resume {
    background: #fff;
@@ -263,9 +251,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
+/*	Skill Bars  */
 
 .bars {
 	width: 95%;
@@ -388,9 +374,7 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
-/* ------------------------------------------------------------------ */
-/* e. Portfolio Section
-/* ------------------------------------------------------------------ */
+/* Portfolio Section */
 
 #portfolio {
    background: #ebeeee;
@@ -538,8 +522,7 @@ ul#nav li.current a { color: #F06000; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
-/* fadein/fadeout effect for modal popup
-/* ------------------------------------------------------------------ */
+/* fadein/fadeout effect for modal popup */
 
 /* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
@@ -559,13 +542,10 @@ ul#nav li.current a { color: #F06000; }
    opacity: 0;
 }
 
+/*  Quotes  */
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+#quotes {
+   background: #1F1F1F url(../images/quotes-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -575,19 +555,19 @@ ul#nav li.current a { color: #F06000; }
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#quotes .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#quotes h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#quotes h1 span { display: none; }
+#quotes .header-col { padding-top: 9px; }
+#quotes .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -599,33 +579,32 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#quotes blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#quotes blockquote:before { content: none; }
+#quotes blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#quotes blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#quotes blockquote cite:before { content: "\2014 \0020"; }
+#quotes blockquote cite a,
+#quotes blockquote cite a:visited { color: #8B9798; border: none }
 
-/* Flex Slider
-/* ------------------------------------------------------------------ */
+/* Flex Slider */
 
 /* Reset */
 .flexslider a:active,
@@ -647,7 +626,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-/* Suggested container for slide animation setups. Can replace this with your own */
+/* container for slide animation setups  */
 .flex-container { zoom: 1; position: relative; }
 
 /* Clearfix for .slides */
@@ -661,8 +640,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
+
 .no-js .slides > li:first-child { display: block; }
 
 /* Slider Styles */
@@ -709,9 +687,7 @@ ul#nav li.current a { color: #F06000; }
     cursor: default;
 }
 
-/* ------------------------------------------------------------------ */
-/* h. Contact Section
-/* ------------------------------------------------------------------ */
+/*  Contact Section  */
 
 #contact {
    background: #191919;
@@ -826,11 +802,7 @@ ul#nav li.current a { color: #F06000; }
    top: 17px;
 }
 
-
-
-/* ------------------------------------------------------------------ */
-/* i. Footer
-/* ------------------------------------------------------------------ */
+/* Footer */
 
 footer {
    padding-top: 48px;
