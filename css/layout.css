@@ -295,33 +295,33 @@ ul#nav li.current a { color: #F06000; }
 
 .ror {
   	width: 60%;
-  	-moz-animation: Ror 2s ease;
-  	-webkit-animation: Ror 2s ease;
+  	-moz-animation: Ror 4s ease;
+  	-webkit-animation: Ror 4s ease;
 }
 .cooking {
   	width: 90%;
-  	-moz-animation: cooking 2s ease;
-  	-webkit-animation: cooking 2s ease;
+  	-moz-animation: cooking 4s ease;
+  	-webkit-animation: cooking 4s ease;
 }
 .photos {
   	width: 50%;
-  	-moz-animation: photos 2s ease;
-  	-webkit-animation: photos 2s ease;
+  	-moz-animation: photos 4s ease;
+  	-webkit-animation: photos 4s ease;
 }
 .css {
   	width: 60%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: css 4s ease;
+  	-webkit-animation: css 4s ease;
 }
 .html5 {
   	width: 40%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: html5 4s ease;
+  	-webkit-animation: html5 4s ease;
 }
 .wordpress {
   	width: 30%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: wordpress 4s ease;
+  	-webkit-animation: wordpress 4s ease;
 }
 
 @-moz-keyframes Ror {
