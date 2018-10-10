@@ -318,23 +318,23 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 4s ease;
   	-webkit-animation: html5 4s ease;
 }
-.wordpress {
+.javascript {
   	width: 99%;
-  	-moz-animation: wordpress 4s ease;
-  	-webkit-animation: wordpress 4s ease;
+  	-moz-animation: javascript 4s ease;
+  	-webkit-animation: javascript 4s ease;
 }
 
 @-moz-keyframes Ror {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes cooking {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes photos {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -342,16 +342,16 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 90%;  }
 }
 
 @-webkit-keyframes Ror {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes cooking {
   0%   { width: 0px;  }
@@ -359,7 +359,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes photos {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -367,11 +367,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 90%;  }
 }
 
 /* Portfolio Section */
